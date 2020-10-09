@@ -1,0 +1,25 @@
+login: "Fractal"
+password: "qazwsxedcrfv"
+user_agent: ""
+available_univerces:
+- "x100"
+- "x3000"
+- "x1000"
+"x100":
+    "universe_key": "uni26"
+    "cookies":
+        "PHPSESSID": "7gulb10uv2tsdts4v60dp00ap1"
+        "uni26": "42%2F%25%2FFractal%2F%25%2F66a5d4ebfcf8292e24fd9127e297b4bf%2F%25%2F0%2F%25%2F11910%2F%25%2F0%2F%25%2F%2F%25%2F%2F%25%2F%2F%25%2F0%2F%25%2F%2F%25%2F0%2F%25%2F0%2F%25%2F0%2F%25%2F0%2F%25%2F1594494981"
+        "xgame_referer": "%5B%23%5D%5B%23%5D%5B%23%5D"
+"x3000":
+    "universe_key": "uni95"
+    "cookies":
+        "PHPSESSID": "7gulb10uv2tsdts4v60dp00ap1"
+        "uni95": "17876%2F%25%2FFractal%2F%25%2Fbe12405a70d118618418f668137bf959%2F%25%2F0%2F%25%2F%2F%25%2F0%2F%25%2F%2F%25%2F%2F%25%2F%2F%25%2F0%2F%25%2F%2F%25%2F0%2F%25%2F0%2F%25%2F%2F%25%2F1%2F%25%2F1595160489"
+        "xgame_referer": "%5B%23%5D%5B%23%5D%5B%23%5D"
+"x1000":
+    "universe_key": "uni33"
+    "cookies":
+        "PHPSESSID": "pleik4moos9inh2qitrd1o5p60"
+        "uni33": "44%2F%25%2FFractal%2F%25%2F6bfa3d825439aca49ac85767e30ec847%2F%25%2F0%2F%25%2F%2F%25%2F0%2F%25%2F%2F%25%2F%2F%25%2F%2F%25%2F0%2F%25%2F%2F%25%2F0%2F%25%2F1%2F%25%2F0%2F%25%2F0%2F%25%2F1602238951"
+        "xgame_referer": "%5B%23%5D%5B%23%5D%5B%23%5D"
