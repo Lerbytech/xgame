@@ -1,7 +1,7 @@
 login: "Fractal"
 password: "qazwsxedcrfv"
-user_agent: ""
-available_univerces:
+user_agent: "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0"
+available_universes:
 - "x100"
 - "x3000"
 - "x1000"

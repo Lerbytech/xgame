@@ -7,8 +7,8 @@ example of yaml file for user:
 
 login: "login"
 password: "password"
-user_agent: ""
-available_univerces:
+user_agent: "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:81.0) Gecko/20100101 Firefox/81.0"
+available_universes:
 - "x100"
 - "x1000"
 "x100":
@@ -29,13 +29,13 @@ available_univerces:
 ACCOUNT_DATA_DIR = Path("accounts/")
 def load_account_metadata(username, universe):
     filename = ACCOUNT_DATA_DIR / Path(f"{username}.yml")
-    print(os.getcwd())
+
     assert filename.exists(), f"{filename} not found!"
 
     with filename.open("r") as f:
         whole_dict = yaml.safe_load(f)
     
-    assert universe in whole_dict["available_univerces"]
+    assert universe in whole_dict["available_universes"]
     res_dict = dict()
     res_dict["login"] = whole_dict["login"]
     res_dict["password"] = whole_dict["password"]
@@ -45,3 +45,4 @@ def load_account_metadata(username, universe):
     res_dict["universe_key"] = whole_dict[universe]["universe_key"]
 
     return res_dict
+
