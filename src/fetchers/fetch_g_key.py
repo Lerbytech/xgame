@@ -70,7 +70,7 @@ def fetch_g_key_overview(account_login, universe_name):
     }
 
     try:
-        response = requests.get("https://xgame-online.com/uni33/sim.php", 
+        response = requests.get(f"https://xgame-online.com/{universe_key}/sim.php", 
                                 headers=headers, 
                                 cookies=ACC["cookies"])
         if response.status_code == 200:
